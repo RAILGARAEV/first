@@ -72,6 +72,26 @@ nav {
   text-align: justify;
   font-weight: 600; 
 }
+.ad{
+  margin: 0;
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 55px;
+}
+.ad1{
+  margin: 0;
+  display: inline-block;
+  margin-top: 65px;
+  margin-left: 55px;
+}
+.ad2{
+  margin: 0;
+  display: inline-block;
+  margin-top: 12px;
+  
+}
+
+
 
 .main{
   width: 80%;
