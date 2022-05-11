@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Игры </title>
+  <link rel="stylesheet" href="style/acters.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="index.html">
+          <img src="image/logo1.svg" alt="logo" width="100px" height="50px">
+        </a>
+      </div>
+
+      <div class="nav-links" id="navLinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="history.html">О книгах</a></li>
+          <li><a href="gallery.html">Галерея</a></li>
+          <li><a href="acters.html">игровая серия</a></li>
+        
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+  </header>
+  <section class="campus">
+    
+<h1 class="h1">Игровая серия "METRO"</h1>
+    <div class="row">
+      <div class="campus-col">
+        <img src="./image/acters/Metro_2033_Redux.webp" alt="london">
+        <div class="layer">
+          <h3>"METRO 2033"</h3>
+          <p>Metro 2033 — компьютерная игра в жанре постапокалиптического шутера от первого лица с элементами survival horror и стелса, 
+            разработанная студией 4A Games и изданная компанией THQ в марте 2010 года.Является интерпретацией первого
+            романа Дмитрия Глуховского.После выхода, Metro 2033 получила в основном положительные отзывы 
+            от профессиональных критиков.</p>
+        </div>
+      </div>
+      <div class="campus-col">
+        <img src="./image/acters/Metro_Last_Light.webp" alt="New York">
+        <div class="layer">
+          <h3>"METRO Last Light"</h3>
+          <p>Была изданная британской компанией Deep Silver в мае 2013 года. Игра является прямым продолжением первой части игровой
+             франшизы вышедшей в 2010 году.Metro: Last Light получила положительные отзывы от критиков и игроков. В 2013 году игра была
+            номинирована на Spike Video Game Awards
+            в категории «Лучший шутер», а GameSpot включил её в список игр года для Xbox 360</p>
+        </div>
+      </div>
+     
+      </div>
+      <div class="row">
+        <div class="campus-col">
+          <img src="./image/acters/Metro_Exodus.png" alt="Washington">
+          <div class="layer">
+            <h3>"METRO EXODUS"</h3>
+            <p>Metro Exodus является третьей игрой в серии Metro,
+               сюжет которой основан на романах Дмитрия Глуховского и продолжает
+                историю Metro 2033 и Metro: Last Light.Выход игры состоялся 15 февраля 2019 года
+                 для игровых платформ ПК (Windows), PlayStation 4 и Xbox One</p>
+          </div></div>
+       
+    </div>
+      
+
+      </div>
+     
+    </div>
+  </section>
+
+  <!-- end campus -->
+  
+
+
+
+
+
+
+
+
+
+  <footer>
+    <nav>
+      <div class="logo">
+        <a href="index.html">
+          <img src="image/logo1.svg" alt="logo" width="100px" height="50px">
+        </a>
+      </div>
+  
+      <div class="nav-links" id="navLinks">
+        
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="history.html">О книгах</a></li>
+          <li><a href="gallery.html">Галерея</a></li>
+          <li><a href="acters.html">об игровой серии</a></li>
+        
+        </ul>
+      </div>
+     
+    </nav>
+    
+   </footer>
+   <script>
+
+    let navLinks = document.getElementById('navLinks');
+    function showMenu() {
+      navLinks.style.right = '0';
+    }
+    function hideMenu() {
+      navLinks.style.right = '-200px';
+    }
+  </script>
+  
+  <script src="https://kit.fontawesome.com/553acfa497.js" crossorigin="anonymous"></script>
+  
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>METR0 2033</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <!-- Обложка -->
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="index.html">
+          <img src="image/logo1.svg" alt="logo" width="100px" height="50px"> 
+        </a>
+      </div>
+
+      <div class="nav-links" id="navLinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="history.html">О книгах</a></li>
+          <li><a href="gallery.html">Галерея</a></li>
+          <li><a href="acters.html">О игровой серии</a></li>
+        
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+      <h1>METRO 2033</h1>
+      <p>Цикл романов российского писателя Дмитрия Глуховского 
+         </p>
+    </div>
+  </header>
+  <!-- Film -->
+  <section class="film">
+    <h2>Книги</h2>
+    <div class="film-row1">
+      <div class="film-col">
+        <a href="history.html"><img src="image/boom 2033.jpg" alt="1"></a>
+        
+      </div>
+      <div class="film-col">
+        <a href="history.html"><img src="image/book 2034.jpg" alt="1"></a>
+      </div>
+      <div class="film-col">
+        <a href="history.html"><img src="image/book 3.jpg" alt="1"></a>
+      </div>
+      </div>
+    </div>
+  </section>
+  <!-- Конкц films -->
+  <!-- galler -->
+  <section class="gal">
+    <h2>Галерея</h2>
+    <div class="gal-row">
+      <h4><a href="gallery.html">Смотреть больше</a></h4>
+    </div>
+   
+  </section>
+  <!-- end gal -->
+ <main>
+   <div class="history"><h1>О книге</h1>
+    <p>METRO 2033 —  российская книжная серия в жанре постапокалиптика, написанная Дми́трием Глухо́вским в 2005 году.
+      Первая книга была выпущена издательством «Эксмо» в 2005 году и переиздан издательством «Популярная литература» в 2007 году.
+       На европейском литературном конкурсе «Еврокон» роман назван «Лучшим дебютом» 2007 года
+       На основе трилогии "метро 2033" "метро 2034" и "метро 2035"была создана «Вселенная Метро 2033» - международная книжная серия,
+       в которой романы и рассказы различных авторов, а также серия компютерных игр.
+        продолжали и дополняли романы Дмитрия Глуховского. В 2024 году ожидается выход фильма по мотивам книги.
+ 
+      </p>
+  <br>
+  <p ><a href="history.html" class="btn">Больше о каждой книге</a></p></div>
+ </main>
+ <footer>
+  <nav>
+    <div class="logo">
+      <a href="index.html">
+        <img src="image/logo1.svg" alt="logo" width="100px" height="50px">
+      </a>
+    </div>
+
+    <div class="nav-links" id="navLinks">
+      <i class="fas fa-times" onclick="hideMenu()"></i>
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="history.html">О книгах</a></li>
+        <li><a href="gallery.html">Галерея</a></li>
+        <li><a href="acters.html">об игровой серии</a></li>
+      
+      </ul>
+    </div>
+    
+  </nav>
+  
+ </footer>
+ 
+ <script>
+
+  let navLinks = document.getElementById('navLinks');
+  function showMenu() {
+    navLinks.style.right = '0';
+  }
+  function hideMenu() {
+    navLinks.style.right = '-200px';
+  }
+</script>
+
+<script src="https://kit.fontawesome.com/553acfa497.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

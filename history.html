@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Книги</title>
+    
+    <link rel="stylesheet" href="style/history.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="index.html">
+          <img src="image/прописная-буква-m-современный-комплект-для-вензелей-логотипов-эмблем-113705920.jpg" alt="logo" width="100px" height="50px">
+        </a>
+      </div>
+
+      <div class="nav-links" id="navLinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="history.html">О книгах</a></li>
+          <li><a href="gallery.html">Галерея</a></li>
+          <li><a href="acters.html">игровая серия</a></li>
+        
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+  </header>
+
+      <section class="main">
+        <h1 class="h1">Книги</h1>  
+        <div class="his-row">
+          <div class="his-col">
+            <img src="./image/boom 2033.jpg" alt="1">
+            <p>2033 год. Весь мир лежит в руинах после масштабной войны, а человечество почти полностью уничтожено. 
+              Москва превратилась в город‑призрак, отравленный радиацией и населённый чудовищами. Немногие выжившие прячутся в 
+              московском метро. Его станции превратились в 
+              города‑государства, а в туннелях царят тьма и ужас.Артему, жителю станции ВДНХ, предстоит пройти через все метро,
+               чтобы спасти от страшной опасности свою станцию, а может быть, и всё метро.
+               Выпущен издательством «Эксмо» в 2005 году и переиздан издательством «Популярная литература» в 2007 году.  </p>
+            <audio src="./music/Алексей Омельчук Георгий Белоглазов - Рассекая Границы (ОСТ из Metro 2033_(newmp3.org).mp3" 
+            
+            class="soundtrack" controls> </audio>
+          </div>
+          <div class="his-col">
+            <img src="./image/book 2034.jpg" alt="1">
+            <p>Цивилизация исчезает. Человек постепенно забывает о том, что делало его человеком.
+               Станция Севастопольская — маленькая подземная 
+              Спарта, противостоящая в одиночку ордам нечисти — оказывается 
+              отрезана от большого метро и будет неминуемо уничтожена. Чтобы спасти ее, нужен настоящий герой... Или героиня?
+              Выпущен издательством «	АСТ» в 2009 году
+              <audio src="./music/Алексей Омельчук - Metro Last Light (ОСТ из Metro 2033_(newmp3.org).mp3" class="soundtrack"
+              justify-content: end;
+               controls> </audio>
+            </p>
+          </div>
+          <div class="his-col">
+            <img src="./image/book 3.jpg" alt="1">
+            <p>«Метро 2035» продолжает — и завершает историю Артема из первой книги культовой трилогии. «Метро 2035» — добро пожаловать в жестокий
+               мир московских избранных. Именно так считают жители столицы, а, по их мнению, и Земли.
+               Но Артем убежден, что в других городах тоже есть люди.
+               Каждый день он выбирается на поверхность, чтобы поймать радиосигнал, но в ответ лишь белый шум...
+               Выпущен издательством «	АСТ» в 2015 году
+               <audio src="./music/Алексей Омельчук - Мёртвый город 2 (OST из Metro 2033 _(newmp3.org).mp3"  
+               class="soundtrack" controls> </audio>
+
+              </p>
+          </div>
+        </div>
+        <!--  -->
+        
+          
+
+
+      </section>
+      <footer>
+        <nav>
+          <div class="logo">
+            <a href="index.html">
+              <img src="image/logo3 (1).svg" alt="logo" width="100px" height="50px">
+            </a>
+          </div>
+      
+          <div class="nav-links" id="navLinks">
+            
+            <ul>
+              <li><a href="index.html">Главная</a></li>
+              <li><a href="history.html">О книгах</a></li>
+              <li><a href="gallery.html">Галерея</a></li>
+              <li><a href="acters.html">игровая серия </a></li>
+            
+            </ul>
+          </div>
+        
+        </nav>
+        
+       </footer>
+       <script>
+
+        let navLinks = document.getElementById('navLinks');
+        function showMenu() {
+          navLinks.style.right = '0';
+        }
+        function hideMenu() {
+          navLinks.style.right = '-200px';
+        }
+      </script>
+      
+      <script src="https://kit.fontawesome.com/553acfa497.js" crossorigin="anonymous"></script>
+      
+</body>
+</html>

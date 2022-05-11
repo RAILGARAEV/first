@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея</title>
+    
+    <link rel="stylesheet" href="style/gallery.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="index.html">
+          <img src="./image/logo3 (1).svg" alt="logo" width="100px" height="50px">
+        </a>
+      </div>
+
+      <div class="nav-links" id="navLinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="history.html">О книгах</a></li>
+          <li><a href="gallery.html">Галерея</a></li>
+          <li><a href="acters.html">об игровой серии</a></li>
+        
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+  </header>
+
+      <section class="gallery">
+        <h1 class="h1">Галерея</h1>
+<div class="photo">
+  <h1> Книжная серия </h1>
+  </div>
+  <h1>"Метро 2033"</h1>
+    <div class="gal-row">
+      <div class="harry"><img src="./image/gallery/2033 1 kanon.jpg" alt=""></div>
+    <div class="harry"><img src="./image/gallery/метро 2 илюжн.jpg" alt=""></div>
+    <div class="harry"><img src="./image/gallery/метро 3 илюжен.jpg" alt=""></div></div>
+
+    <h1> "Метро 2034" </h1>
+    <div class="gal-row"> <div class="harry"><img src="./image/gallery/metro2034 первый.jpg" alt=""></div>
+    <div class="harry"><img src="./image/gallery/2034 2 илюжн.jpg" alt=""></div>
+    <div class="harry"><img src="./image/gallery/2034 3 илюжн.jpg" alt=""></div></div>
+
+    <h1>Метро "2035"</h1>
+    <div class="gal-row"><div class="harry"><img src="./image/gallery/2035 ilustration 1.jpg" alt=""></div>
+    <div class="harry"><img src="./image/gallery/metro 2035 ilusion 2.jpg" alt=""></div>
+    <div class="harry"><img src="./image/gallery/METRO-2035 3.jpg" alt=""></div></div>
+
+    <h1>Игровая серия</h1>
+
+  <h1>"METRO 2033 REDUX"</h1>
+    <div class="gal-row">
+      <div class="harry"><img src="./image/gallery/game 1 1.jpg" alt=""></div>
+    <div class="harry"><img src="./image/gallery/game 2 1.jpg" alt=""></div>
+    <div class="harry"><img src="./image/gallery/game 2033 3.jpg" alt=""></div></div>
+
+    <h1>"METRO Last light"</h1>
+    <div class="gal-row"> <div class="harry"><img src="./image/gallery/lastlait1.jpg" alt=""></div>
+    <div class="harry"><img src="./image/gallery/metro_last_light_redux-3.webp" alt=""></div>
+    <div class="harry"><img src="./image/gallery/preview_c1140164f84b7db667c4c824891f1465.jpg" alt=""></div></div>
+    <h1>"METRO: EXODUS"</h1>
+    <div class="gal-row"><div class="harry"><img src="./image/gallery/exodus 11.jpg" alt=""></div>
+    <div class="harry"><img src="./image/gallery/exodus 22.jfif  " alt=""></div>
+    <div class="harry"><img src="./image/gallery/exodus 333.jfif" alt=""></div></div>
+    
+   
+    
+</div>
+
+
+      </section>
+      <footer>
+        <nav>
+          <div class="logo">
+            <a href="index.html">
+              <img src="./image/logo3 (1).svg" alt="logo" width="100px" height="50px">
+            </a>
+          </div>
+      
+          <div class="nav-links" id="navLinks">
+            
+            <ul>
+              <li><a href="index.html">Главная</a></li>
+              <li><a href="history.html">О книгах</a></li>
+              <li><a href="gallery.html">Галерея</a></li>
+              <li><a href="acters.html">Игровая серия</a></li>
+            
+            </ul>
+          </div>
+       
+        </nav>
+        
+       </footer>
+       <script>
+
+        let navLinks = document.getElementById('navLinks');
+        function showMenu() {
+          navLinks.style.right = '0';
+        }
+        function hideMenu() {
+          navLinks.style.right = '-200px';
+        }
+      </script>
+      
+      <script src="https://kit.fontawesome.com/553acfa497.js" crossorigin="anonymous"></script>
+      
+</body>
+</html>
