@@ -9,6 +9,9 @@ body{
   background-image: url(../image/fon.jpg);
   background-size: cover;
 }
+.h1{
+  color: #fff;
+}
 /* обложка */
 header {
   width: 100%;
@@ -224,7 +227,6 @@ nav .fas {
 }
 .campus-col img{
   height: 100%;
- 
 }
 h1{
   text-align: center;
